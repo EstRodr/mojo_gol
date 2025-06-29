@@ -1,5 +1,5 @@
 site_name: Mojo Game of Life
-docs_dir: docs
+docs_dir: docs/docs
 site_dir: site
 
 # Theme
@@ -35,8 +35,8 @@ theme:
         name: Switch to light mode
 
 # Repository
-repo_name: mojo-game-of-life
-repo_url: https://github.com/yourusername/mojo-game-of-life
+repo_name: mojo-gol
+repo_url: https://github.com/EstRodr/mojo_gol
 edit_uri: edit/main/docs/
 
 # Copyright
@@ -74,17 +74,16 @@ nav:
   - User Guide:
     - Basic Usage: guide/usage.md
     - Configuration: guide/configuration.md
-    - Controls: guide/controls.md
+    - Performance: guide/performance.md
   - API Reference:
     - Life: api/life.md
     - Grid: api/grid.md
   - Development:
-    - Building: development/building.md
-    - Testing: development/testing.md
     - Contributing: development/contributing.md
   - About:
-    - License: about/license.md
-    - Changelog: about/changelog.md
+    - Contributors: about/contributors.md
+  - FAQ: faq.md
+  - Architecture: architecture.md
 
 # Plugins
 plugins:
