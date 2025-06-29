@@ -1,0 +1,97 @@
+# Mojo Language Configuration
+
+# Language name as it should appear in the UI
+language = "Mojo"
+
+# File extensions associated with this language
+extensions = [".mojo", ".🔥"]
+
+# Keywords for syntax highlighting
+keywords = [
+    "fn", "struct", "var", "let", "alias", "return", "inout", "owned", "borrowed",
+    "raises", "with", "as", "if", "else", "for", "while", "break", "continue",
+    "import", "from", "as", "raise", "try", "except", "finally", "with", "pass"
+]
+
+# Built-in types
+types = [
+    "Int", "Float", "String", "Bool", "Tensor", "List", "Dict", "Tuple",
+    "SIMD", "DType", "Pointer", "AnyType", "NoneType"
+]
+
+# Standard library modules
+modules = [
+    "math", "random", "time", "os", "sys", "io", "collections", "algorithm",
+    "tensor", "parallel", "testing", "benchmark"
+]
+
+# Code intelligence settings
+[code_intelligence]
+# Whether to enable code completion
+completion = true
+# Whether to enable hover documentation
+hover = true
+# Whether to enable signature help
+signature_help = true
+# Whether to enable code actions
+code_actions = true
+# Whether to enable references
+references = true
+# Whether to enable document symbols
+document_symbols = true
+# Whether to enable workspace symbols
+workspace_symbols = true
+
+# Linter configuration
+[linter]
+enabled = true
+# Path to the Mojo linter executable
+command = "mojo-lint"
+# Arguments to pass to the linter
+args = ["--format=json"]
+
+# Formatter configuration
+[formatter]
+enabled = true
+# Path to the Mojo formatter executable
+command = "mojo-format"
+# Arguments to pass to the formatter
+args = ["--in-place"]
+
+# Debugger configuration
+[debugger]
+# Whether the debugger is supported for this language
+supported = true
+# Path to the debugger executable
+command = "mojo-debug"
+# Arguments to pass to the debugger
+args = ["--port=5678"]
+
+# Language server configuration
+[language_server]
+# Whether to use a language server for this language
+enabled = true
+# Command to start the language server
+command = "mojo-language-server"
+# Arguments to pass to the language server
+args = ["--log-level=info"]
+
+# Build system configuration
+[build_system]
+# Command to build the project
+build_command = "mojo build"
+# Command to run the project
+run_command = "mojo run"
+# Command to test the project
+test_command = "mojo test"
+
+# Documentation settings
+[documentation]
+# URL to the language documentation
+reference_url = "https://docs.modular.com/mojo"
+# Path to local documentation (if available)
+local_path = "docs/mojo"
+# Whether to enable documentation generation
+generate_docs = true
+# Command to generate documentation
+docs_command = "mojo docs"

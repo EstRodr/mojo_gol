@@ -1,0 +1,7 @@
+!Name: Glider
+!A lightweight spaceship that moves diagonally.
+!www.conwaylife.com/wiki/Glider
+
+.O.
+..O
+OOO
