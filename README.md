@@ -1,8 +1,42 @@
 # Conway's Game of Life in Mojo
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://EstRodr.github.io/mojo_gol/)
+
 A high-performance implementation of Conway's Game of Life using the Mojo programming language, featuring interactive visualization with Pygame.
 
 ![Game of Life Demo](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+
+## 📖 Documentation
+
+For detailed documentation, including installation guide, usage instructions, and API reference, please visit the [documentation website](https://EstRodr.github.io/mojo_gol/).
+
+## 🌟 Features
+
+- 🚀 High-performance simulation using Mojo
+- 📚 Comprehensive documentation with examples
+- 🎨 Interactive visualization with Pygame
+- ⚡ Optimized grid operations
+- 🎮 Interactive controls (pause, step, reset)
+- 🎨 Customizable colors and display options
+
+## 📦 Repository
+
+This project is hosted on GitHub: [https://github.com/EstRodr/mojo_gol](https://github.com/EstRodr/mojo_gol)
+
+### 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/EstRodr/mojo_gol.git
+   cd mojo_gol
+   ```
+
+2. **View the documentation**
+   - Online: [Documentation](https://EstRodr.github.io/mojo_gol/)
+   - Local: Open `docs/site/index.html` after building the documentation
+
+## Prerequisites
 
 ## Features
 
